@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,6 +24,43 @@
             </div>
         </div>
     </section>
+
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<head>
+
+    <title>StarQuiz!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+<body ng-app="app">
+
+<!--<div ng-include='"templates/header.php"'></div>-->
+<div ng-view></div>
+<!--<div ng-include='"templates/footer.php"'></div>-->
+
+<!-- JQuery and Bootstrap -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<!-- Angular -->
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+
+<!-- JS file -->
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
