@@ -42,7 +42,7 @@ function FetchCtrl($scope, $http, $templateCache) {
 }
 
 // Functions
-var count = 30;
+var count = 61;
 var counter=setInterval(timer, 1000);
 
 function timer()
