@@ -42,7 +42,7 @@ function FetchCtrl($scope, $http, $templateCache) {
 }
 
 // Functions
-var count = 60;
+var count = 30;
 var counter=setInterval(timer, 1000);
 
 function timer()
@@ -70,7 +70,7 @@ function getPontuation(){
         inputName = $(this).find("#nameCharacter").val().toLowerCase();
         realName = $(this).find("#realNameCharacter").val().toLowerCase();
         if (inputName === realName){
-            points =+ 10;
+            points += 10;
         }
     });
     return points;
